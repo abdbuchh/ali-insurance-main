@@ -88,9 +88,8 @@ const Footer = () => (
         <div>
           <h4 className="font-sans text-sm font-semibold mb-3 uppercase tracking-wider opacity-70">Hours</h4>
           <div className="space-y-1 text-sm opacity-80">
-            <p>Mon – Fri: 9:00 AM – 6:00 PM</p>
-            <p>Saturday: By Appointment</p>
-            <p>Sunday: Closed</p>
+            <p>Mon – Fri: 9:00 AM – 5:00 PM</p>
+            <p>Saturday & Sunday: Closed</p>
           </div>
         </div>
       </div>

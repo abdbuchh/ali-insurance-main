@@ -159,7 +159,7 @@ const About = () => (
         </motion.h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           <motion.a
-            href="https://maps.google.com/?q=29525+W+Nine+Mile+Rd+Farmington+Hills+MI+48336"
+            href="https://www.google.com/maps/place/AAA+Insurance+-+Ali+Insurance+Agency/@42.4557949,-83.3407049,17z/data=!3m1!4b1!4m6!3m5!1s0x8824afb99f2aa03f:0xd2e53d32f110f396!8m2!3d42.455791!4d-83.33813!16s%2Fg%2F11x726ypmk?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             initial="hidden"
