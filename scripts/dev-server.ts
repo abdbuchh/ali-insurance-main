@@ -7,7 +7,7 @@ config({ path: resolve(process.cwd(), ".env.local") });
 import express from "express";
 import type { Request, Response } from "express";
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import handler from "./quote.js";
+import handler from "../api/quote.js";
 
 const app = express();
 app.use(express.json());

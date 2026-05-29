@@ -1,10 +1,13 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { Resend } from "resend";
-import { buildQuoteEmailBody, quoteFormSchema } from "../src/lib/quote-form";
+import { buildQuoteEmailBody, quoteFormSchema } from "../lib/quote-form.js";
 
 function getEnv(name: string): string | undefined {
-  const value = process.env[name]?.trim();
-  return value || undefined;
+  const raw = process.env[name]?.trim();
+  if (!raw) return undefined;
+  // Vercel env UI sometimes stores surrounding quotes from .env files
+  if (raw.startsWith('"') && raw.endsWith('"')) return raw.slice(1, -1).trim() || undefined;
+  return raw;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
