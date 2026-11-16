@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-serif text-xl font-bold text-primary tracking-tight">Ali Alawlaqi</span>
+          <span className="font-serif text-xl font-bold text-primary tracking-tight">Ali Olaki</span>
           <span className="hidden sm:inline text-xs text-muted-foreground font-sans border-l border-border pl-2 ml-1">Insurance Agent</span>
         </Link>
 
@@ -74,7 +74,7 @@ const Footer = () => (
     <div className="container mx-auto px-4 lg:px-8 py-12">
       <div className="grid md:grid-cols-3 gap-8">
         <div>
-          <h3 className="font-serif text-lg font-bold mb-3">Ali Alawlaqi</h3>
+          <h3 className="font-serif text-lg font-bold mb-3">Ali Olaki</h3>
           <p className="text-sm opacity-80">Licensed insurance agent serving Michigan families with Auto, Home, and Life insurance solutions.</p>
         </div>
         <div>
@@ -94,7 +94,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center text-xs opacity-60">
-        © {new Date().getFullYear()} Ali Alawlaqi — Insurance Agent. All rights reserved.
+        © {new Date().getFullYear()} Ali Olaki — Insurance Agent. All rights reserved.
       </div>
     </div>
   </footer>

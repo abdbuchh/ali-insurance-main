@@ -43,7 +43,7 @@ const Index = () => (
               Protect What Matters Most
             </motion.h1>
             <motion.p variants={fadeUp} custom={2} className="text-lg opacity-85 max-w-lg mb-8 font-sans">
-              I'm Ali Alawlaqi — your local insurance agent. I help Michigan families find the right Auto, Home, and Life insurance at the best rates.
+              I'm Ali Olaki — your local insurance agent. I help Michigan families find the right Auto, Home, and Life insurance at the best rates.
             </motion.p>
             <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="bg-accent-gradient text-accent-foreground hover:opacity-90 shadow-hero font-sans font-semibold">
@@ -65,7 +65,7 @@ const Index = () => (
               <div className="absolute -inset-4 bg-primary-foreground/10 rounded-2xl blur-2xl" />
               <img
                 src={aliPortrait}
-                alt="Ali Alawlaqi — Insurance Agent"
+                alt="Ali Olaki — Insurance Agent"
                 className="relative rounded-2xl shadow-hero w-[280px] sm:w-[340px] md:w-[360px] lg:w-[380px] max-w-full object-cover"
               />
             </div>

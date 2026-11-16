@@ -24,13 +24,13 @@ const About = () => (
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           <motion.div initial="hidden" animate="visible" className="order-last lg:order-first">
             <motion.p variants={fadeUp} custom={0} className="text-sm font-sans font-semibold uppercase tracking-widest text-muted-foreground mb-4">
-              About Ali Alawlaqi
+              About Ali Olaki
             </motion.p>
             <motion.h1 variants={fadeUp} custom={1} className="font-serif text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
               Your Trusted Insurance Partner in Michigan
             </motion.h1>
             <motion.p variants={fadeUp} custom={2} className="text-muted-foreground font-sans leading-relaxed mb-4">
-              I'm Ali Alawlaqi, a licensed insurance agent based in Farmington Hills, Michigan. I've helped hundreds of families and individuals find the right coverage for their auto, home, and life insurance needs — and I'm committed to doing the same for you.
+              I'm Ali Olaki, a licensed insurance agent based in Farmington Hills, Michigan. I've helped hundreds of families and individuals find the right coverage for their auto, home, and life insurance needs — and I'm committed to doing the same for you.
             </motion.p>
             <motion.p variants={fadeUp} custom={3} className="text-muted-foreground font-sans leading-relaxed">
               My mission is simple: provide personalized, honest insurance guidance that puts your family's well-being first. I believe everyone deserves an agent who listens, educates, and advocates for them.
@@ -43,7 +43,7 @@ const About = () => (
             transition={{ duration: 0.7, delay: 0.3 }}
             className="flex justify-center order-first lg:order-last"
           >
-            <img src={aliPortrait} alt="Ali Alawlaqi" className="rounded-2xl shadow-hero w-full max-w-[360px] object-cover" />
+            <img src={aliPortrait} alt="Ali Olaki" className="rounded-2xl shadow-hero w-full max-w-[360px] object-cover" />
           </motion.div>
         </div>
       </div>
