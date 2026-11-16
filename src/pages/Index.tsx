@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Car, Home, Heart, Shield, Users, Award, Star, ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
-import aliPortrait from "@/assets/agent-headshot.jpg";
+import aliPortrait from "@/assets/aiheadshot2.jpeg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
